@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1586105251261-72a756497a11');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Dream Interiors Studio</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">Make Your Home Beautiful</div>
+
+<section class="section" id="services">
+    <h2>Our Expertise</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Living Room Design</h3>
+            <p>Modern, luxurious, and comfortable designs that match your lifestyle.</p>
+        </div>
+        <div class="card">
+            <h3>Bedroom Interiors</h3>
+            <p>Elegance and calmness to make your rest time peaceful.</p>
+        </div>
+        <div class="card">
+            <h3>Commercial Spaces</h3>
+            <p>Smart layouts and aesthetic appeal for your business areas.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@dreaminteriors.com</p>
+    <p>Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+    <p>2025 Dream Interiors Studio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
